@@ -20,54 +20,29 @@ namespace ControllerFrameWork
         private bool cc_RememberJump = false;
         private static readonly Vector3 cc_XZPlane = new Vector3(1.0f, 0.0f, 1.0f);
         //-------------------------------------------------------------------------
-        public float Get_fSpeed()
+        public float Speed
         {
-            return fSpeed;
+            get => fSpeed; set => fSpeed = value;
         }
-        public float Get_fJump()
+        public float Jump
         {
-            return fJump;
+            get => fJump; set => fJump = value;
         }
-        public float Get_fFriction()
+        public float Friction
         {
-            return fFriction;
+            get => fFriction; set => fFriction = value;
         }
-        public float Get_fGravity()
+        public float Gravity
         {
-            return fGravity;
+            get => fGravity; set => fGravity = value;
         }
-        public float Get_fAcceleration()
+        public float Acceleration
         {
-            return fAcceleration;
+            get => fAcceleration; set => fAcceleration = value;
         }
-        public float Get_fStop()
+        public float Stop
         {
-            return fStop;
-        }
-        //-------------------------------------------------------------------------
-        public void Set_fSpeed(float speed)
-        {
-            fSpeed = speed;
-        }
-        public void Set_fJump(float jump)
-        {
-            fJump = jump;
-        }
-        public void Set_fFriction(float friction)
-        {
-            fFriction = friction;
-        }
-        public void Set_fGravity(float gravity)
-        {
-            fGravity = gravity;
-        }
-        public void Set_fAcceleration(float acceleration)
-        {
-            fAcceleration = acceleration;
-        }
-        public void Set_fStop(float stop)
-        {
-            fStop = stop;
+            get => fStop; set => fStop = value;
         }
         public void Set_DefaultValues()
         {
