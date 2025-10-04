@@ -46,9 +46,9 @@ namespace ControllerFrameWork
         }
         public void Set_DefaultValues()
         {
-            fSpeed          = 9.6f;
+            fSpeed          = 10.0f;
             fJump           = 10.5f;
-            fFriction       = 3.8f;
+            fFriction       = 10.0f;
             fGravity        = 28.5f;
             fAcceleration   = 8.5f;
             fStop           = 3.5f;

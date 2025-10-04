@@ -25,11 +25,11 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            o_Controller.Set_fSpeed(16.66f);
+            o_Controller.Speed = 20.0f;
         }
         else
         {
-            o_Controller.Set_fSpeed(9.99f);
+            o_Controller.Speed = 10.0f;
         }
 
         o_Controller.CC_Think(Time.deltaTime);
